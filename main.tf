@@ -27,7 +27,7 @@ resource "azurerm_resource_group" "eee" {
     name = "nemo-rg"
    location = "east us"
 }
-resource "azurerm_resource_group" "ddd" {
+resource "azurerm_resource_group" "ggg" {
     name = "semo-rg"
     location = "east us"  
 }
