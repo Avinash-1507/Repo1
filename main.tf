@@ -22,8 +22,12 @@ resource "azurerm_resource_group" "ccc" {
     location = "east us"
   
 }
+
+resource "azurerm_resource_group" "eee" {
+    name = "nemo-rg"
+   location = "east us"
+}
 resource "azurerm_resource_group" "ddd" {
     name = "semo-rg"
-    location = "east us"
-  
+    location = "east us"  
 }
