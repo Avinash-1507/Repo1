@@ -31,3 +31,7 @@ resource "azurerm_resource_group" "ddd" {
     name = "semo-rg"
     location = "east us"  
 }
+resource "azurerm_resource_group" "fff" {
+    name = "jemo-rg"
+    location = "east us"  
+}
