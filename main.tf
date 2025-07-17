@@ -17,4 +17,8 @@ resource "azurerm_resource_group" "bbb" {
     location = "east us"
   
 }
-
+resource "azurerm_resource_group" "ccc" {
+    name = "remo-rg"
+    location = "east us"
+  
+}
